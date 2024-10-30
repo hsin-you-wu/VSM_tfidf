@@ -1,4 +1,5 @@
 # Project Setup  
+  First, unzip ```Documents.7z```. Make sure the documents are stored in a folder called ```Documents```.
   Execute the following two CLIs to download the required resources:  
   ```pip install -r requirements.txt```  
   ```python3 download_resources.py```  
