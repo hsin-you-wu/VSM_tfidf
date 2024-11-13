@@ -19,7 +19,8 @@ The VSM is able to retrieve the relevant news to the given query from a set of 7
   - TF-IDF weighting + Euclidean Distance
 
 ### Task 2  
-Relevance Feedback is an IR technique for improving retrieved results. The simplest approach is Pseudo Feedback, the idea of which is to feed the results retrieved by the given query, and then to use the content of the fed results as supplement queries to re-score the documents.  
+Relevance Feedback is an IR technique for improving retrieved results. The simplest approach is Pseudo Feedback, the idea of which is to feed the results retrieved by the given query, and then to use the content of the fed results as supplement queries to re-score the documents.   
+
 For this task, we will use the Nouns and Verbs from the retrieved results from task 1 to perform Pseudo Feedback, and return a new retreival result. 
 
 ### Task 3  
